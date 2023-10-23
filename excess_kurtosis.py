@@ -9,7 +9,7 @@ import yfinance as yf
 fortune_500 = ["AAPL", "MSFT", "GOOGL", "AMZN", "FB"]
 
 # Add banner image
-st.image("banner.png", use_column_width=True)
+st.image("banner.PNG", use_column_width=True)
 
 # Sidebar for input
 st.sidebar.write("### Disclaimer: Assumes annualized inputs")
